@@ -43,7 +43,7 @@ const handleOnBlur = e => {
       date: date.toLocaleDateString()
     }
     // console.log(appointment)
-    fetch('http://localhost:5000/appointments',{
+    fetch('https://shielded-island-96351.herokuapp.com/appointments',{
       method: 'POST',
       headers: {
         'content-type': 'application/json'
